@@ -5,6 +5,6 @@ export default ({ strapi }: { strapi: Strapi }) => {
   strapi.customFields.register({
     name: 'uuid',
     plugin: pluginId,
-    type: 'uid',
+    type: 'string',
   })
 };
