@@ -1,7 +1,7 @@
 {
   "name": "strapi-advanced-uuid",
   "version": "0.0.0",
-  "description": "UUID field type support to Strapi with customizations",
+  "description": "UUID field type support to Strapi with customizations and internationalization",
   "keywords": [
     "strapi",
     "strapi-plugin",
@@ -12,12 +12,12 @@
   "strapi": {
     "name": "strapi-advanced-uuid",
     "displayName": "Strapi Advanced UUID",
-    "description": "UUID field type support to Strapi with customizations",
+    "description": "UUID field type support to Strapi with customizations and internationalization",
     "kind": "plugin"
   },
   "dependencies": {
-    "uuid": "^9.0.1",
-    "randexp": "^0.5.3"
+    "randexp": "^0.5.3",
+    "uuid": "^9.0.1"
   },
   "devDependencies": {
     "@jest/globals": "^29.7.0",
